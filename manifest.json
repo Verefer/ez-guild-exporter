@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "EZ Guild Exporter",
+  "version": "1.0",
+  "description": "Расширение для сохранения таблицы участников гильдии с ezwow.org в CSV. Автор: 01000100 (github.com/verefer).",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.ezwow.org/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "homepage_url": "https://github.com/verefer/ez-guild-exporter"
+}
