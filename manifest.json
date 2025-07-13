@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "EZ Guild Exporter",
-  "version": "1.0",
-  "description": "Расширение для сохранения таблицы участников гильдии с ezwow.org в CSV. Автор: 01000100 (github.com/verefer).",
+  "version": "1.5 - beta",
+  "description": "Расширение для сохранения таблицы участников гильдии с ezwow.org в CSV. Автор: github.com/verefer",
   "permissions": ["scripting", "activeTab", "storage"],
   "action": {
     "default_popup": "popup.html",
